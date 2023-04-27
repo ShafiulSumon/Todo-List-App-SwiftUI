@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8460E47929CC674F00DEFE6D /* NotePad_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8460E47829CC674F00DEFE6D /* NotePad_SwiftUIApp.swift */; };
-		8460E47B29CC674F00DEFE6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8460E47A29CC674F00DEFE6D /* ContentView.swift */; };
+		8460E47929CC674F00DEFE6D /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8460E47829CC674F00DEFE6D /* TodoList.swift */; };
+		8460E47B29CC674F00DEFE6D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8460E47A29CC674F00DEFE6D /* HomeView.swift */; };
 		8460E47D29CC675000DEFE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8460E47C29CC675000DEFE6D /* Assets.xcassets */; };
 		8460E48029CC675000DEFE6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8460E47F29CC675000DEFE6D /* Preview Assets.xcassets */; };
+		846A653929D2BA6800F9514E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A653829D2BA6800F9514E /* DataManager.swift */; };
+		846A656029D432B000F9514E /* Test3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A655F29D432B000F9514E /* Test3.swift */; };
+		846DBA3329CD4D3E005925A6 /* AddPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DBA3229CD4D3E005925A6 /* AddPageView.swift */; };
+		846DBA3529CD51B0005925A6 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DBA3429CD51B0005925A6 /* TestView.swift */; };
+		846DBA3729CD5235005925A6 /* Text2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DBA3629CD5235005925A6 /* Text2View.swift */; };
+		846DBA3929CD616A005925A6 /* TaskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DBA3829CD616A005925A6 /* TaskData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8460E47529CC674F00DEFE6D /* NotePad-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NotePad-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8460E47829CC674F00DEFE6D /* NotePad_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePad_SwiftUIApp.swift; sourceTree = "<group>"; };
-		8460E47A29CC674F00DEFE6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8460E47829CC674F00DEFE6D /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		8460E47A29CC674F00DEFE6D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8460E47C29CC675000DEFE6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8460E47F29CC675000DEFE6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		846A653829D2BA6800F9514E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		846A655F29D432B000F9514E /* Test3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test3.swift; sourceTree = "<group>"; };
+		846DBA3229CD4D3E005925A6 /* AddPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPageView.swift; sourceTree = "<group>"; };
+		846DBA3429CD51B0005925A6 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		846DBA3629CD5235005925A6 /* Text2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2View.swift; sourceTree = "<group>"; };
+		846DBA3829CD616A005925A6 /* TaskData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +63,13 @@
 		8460E47729CC674F00DEFE6D /* NotePad-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				8460E47829CC674F00DEFE6D /* NotePad_SwiftUIApp.swift */,
-				8460E47A29CC674F00DEFE6D /* ContentView.swift */,
+				8460E47829CC674F00DEFE6D /* TodoList.swift */,
+				846A653A29D2C09300F9514E /* Home */,
 				8460E47C29CC675000DEFE6D /* Assets.xcassets */,
 				8460E47E29CC675000DEFE6D /* Preview Content */,
+				846DBA3429CD51B0005925A6 /* TestView.swift */,
+				846DBA3629CD5235005925A6 /* Text2View.swift */,
+				846A655F29D432B000F9514E /* Test3.swift */,
 			);
 			path = "NotePad-SwiftUI";
 			sourceTree = "<group>";
@@ -65,6 +80,49 @@
 				8460E47F29CC675000DEFE6D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		846A653A29D2C09300F9514E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				846A653E29D2C2C700F9514E /* Utility */,
+				846A653D29D2C2B500F9514E /* Model */,
+				846A653B29D2C0A200F9514E /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		846A653B29D2C0A200F9514E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				846A653C29D2C0BE00F9514E /* SubView */,
+				8460E47A29CC674F00DEFE6D /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		846A653C29D2C0BE00F9514E /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				846DBA3229CD4D3E005925A6 /* AddPageView.swift */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		846A653D29D2C2B500F9514E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				846DBA3829CD616A005925A6 /* TaskData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		846A653E29D2C2C700F9514E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				846A653829D2BA6800F9514E /* DataManager.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8460E47B29CC674F00DEFE6D /* ContentView.swift in Sources */,
-				8460E47929CC674F00DEFE6D /* NotePad_SwiftUIApp.swift in Sources */,
+				846DBA3529CD51B0005925A6 /* TestView.swift in Sources */,
+				846A656029D432B000F9514E /* Test3.swift in Sources */,
+				8460E47B29CC674F00DEFE6D /* HomeView.swift in Sources */,
+				846DBA3929CD616A005925A6 /* TaskData.swift in Sources */,
+				846A653929D2BA6800F9514E /* DataManager.swift in Sources */,
+				846DBA3729CD5235005925A6 /* Text2View.swift in Sources */,
+				846DBA3329CD4D3E005925A6 /* AddPageView.swift in Sources */,
+				8460E47929CC674F00DEFE6D /* TodoList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

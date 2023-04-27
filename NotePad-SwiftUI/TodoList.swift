@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct NotePad_SwiftUIApp: App {
+struct TodoList: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
